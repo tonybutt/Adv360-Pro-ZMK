@@ -1,3 +1,81 @@
+macro_termpaste: macro_termpaste{
+compatible = "zmk,behavior-macro";
+label = "macro_termpaste";
+#binding-cells = <0>;
+bindings = <&kp RIGHT_CONTROL>, <&kp RIGHT_SHIFT>, <&kp V>;
+};
+macro_termcopy: macro_termcopy{
+compatible = "zmk,behavior-macro";
+label = "macro_termcopy";
+#binding-cells = <0>;
+bindings = <&kp RIGHT_CONTROL>, <&kp RSHIFT>, <&kp C>;
+};
+macro_move_workspace9: macro_move_workspace9{
+compatible = "zmk,behavior-macro";
+label = "macro_move_workspace9";
+#binding-cells = <0>;
+bindings = <&kp RGUI>, <&kp RSHIFT>, <&kp NUMBER_9>;
+};
+macro_move_workspace8: macro_move_workspace8{
+compatible = "zmk,behavior-macro";
+label = "macro_move_workspace8";
+#binding-cells = <0>;
+bindings = <&kp RGUI>, <&kp RSHIFT>, <&kp NUMBER_8>;
+};
+macro_move_workspace7: macro_move_workspace7{
+compatible = "zmk,behavior-macro";
+label = "macro_move_workspace7";
+#binding-cells = <0>;
+bindings = <&kp RGUI>, <&kp RSHIFT>, <&kp NUMBER_7>;
+};
+macro_move_workspace5: macro_move_workspace5{
+compatible = "zmk,behavior-macro";
+label = "macro_move_workspace5";
+#binding-cells = <0>;
+bindings = <&kp RGUI>, <&kp RSHIFT>, <&kp NUMBER_5>;
+};
+macro_move_workspace6: macro_move_workspace6{
+compatible = "zmk,behavior-macro";
+label = "macro_move_workspace6";
+#binding-cells = <0>;
+bindings = <&kp RGUI>, <&kp RSHIFT>, <&kp NUMBER_6>;
+};
+macro_move_workspace4: macro_move_workspace4{
+compatible = "zmk,behavior-macro";
+label = "macro_move_workspace4";
+#binding-cells = <0>;
+bindings = <&kp RGUI>, <&kp RSHIFT>, <&kp NUMBER_4>;
+};
+macro_move_workspace3: macro_move_workspace3{
+compatible = "zmk,behavior-macro";
+label = "macro_move_workspace3";
+#binding-cells = <0>;
+bindings = <&kp RIGHT_GUI>, <&kp RIGHT_SHIFT>, <&kp NUMBER_3>;
+};
+macro_term: macro_term{
+compatible = "zmk,behavior-macro";
+label = "macro_term";
+#binding-cells = <0>;
+bindings = <&kp RIGHT_GUI>, <&kp ENTER>;
+};
+macro_menu: macro_menu{
+compatible = "zmk,behavior-macro";
+label = "macro_menu";
+#binding-cells = <0>;
+bindings = <&kp RIGHT_GUI>, <&kp SPACE>;
+};
+macro_move_workspace2: macro_move_workspace2{
+compatible = "zmk,behavior-macro";
+label = "macro_move_workspace2";
+#binding-cells = <0>;
+bindings = <&kp RIGHT_GUI>, <&kp RIGHT_SHIFT>, <&kp NUMBER_2>;
+};
+macro_move_workspace1: macro_move_workspace1{
+compatible = "zmk,behavior-macro";
+label = "macro_move_workspace1";
+#binding-cells = <0>;
+bindings = <&kp RGUI>, <&kp RIGHT_SHIFT>, <&kp NUMBER_1>;
+};
 macro_macro_screensht: macro_macro_screensht{
 compatible = "zmk,behavior-macro";
 label = "macro_macro_screensht";
